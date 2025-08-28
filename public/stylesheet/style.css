@@ -1,0 +1,181 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.navbar{
+    height: 5rem;
+}
+
+
+.search{
+    /* margin-left: auto; */
+    width: 30rem;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+
+.footer-links{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline ;
+}
+
+.f-info-links , .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 8rem;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: space-evenly;    
+}
+
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;   /* Main stretch kare footer ko neeche push karne ke liye */
+}
+
+/* card */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+/* card effact */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new page  */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* show image */
+.show-img{
+    height: 40vh;
+}
+
+
+.btns{
+    display: flex;
+    /* margin-left: 1rem; */
+}
+
+.del-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+}
+
+
+/* rating  */
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse; /* taaki left se fill ho */
+  justify-content: start;
+}
+.rating input {
+  display: none; /* radio buttons ko chhupa diya */
+}
+.rating label {
+  font-size: 2rem;
+  color: lightgray;
+  cursor: pointer;
+}
+.rating input:checked ~ label {
+  color: gold; /* selected stars */
+}
+
+
+#comment::placeholder {
+  color: #b3acac;      /* darker color */
+  opacity: 1;       /* default 0.6 hota hai, 1 kar dene se transparency hat jaati hai */
+}
+
+.star {
+  font-size: 18px;
+  color: #ccc; /* blank star */
+}
+
+.star.filled {
+  color: green; /* filled star */
+}
+
+.username {
+  max-width: 65%;   /* username apni width ke andar hi wrap hoga */
+  word-wrap: break-word; /* agar word bahut lamba hua toh break hoke next line me aa jayega */
+}
+
+.stars {
+  white-space: nowrap; /* stars ek hi line me fix rahenge */
+}
+
+/* map */
+#map{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
